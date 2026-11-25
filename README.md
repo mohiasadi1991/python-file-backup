@@ -1,6 +1,6 @@
 import shutil
 from pathlib import Path
-from datetime import datetime
+from datetime import datetim
 
 def create_backup(source):
     source = Path(source).expanduser()
